@@ -70,6 +70,15 @@ main > section, main > article {
   background-color: var(--white);
 }
 
+main > article p:first-of-type::first-letter {
+  font-size: 8rem;
+  font-weight: 700;
+  float: left;
+  line-height: 1;
+  margin-right: 8px;
+  margin-block-start: auto;
+}
+
 main > section.hero {
   position: sticky;
   top: 0;
